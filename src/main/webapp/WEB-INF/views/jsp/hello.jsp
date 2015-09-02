@@ -72,7 +72,7 @@
 				<span class="icon-bar"></span>
 				</button>
 				<div class="navbar-brand">
-				<img src="images/logo.png" alt="Zerif">
+				<img src="${ctx}/resources/images/logo.png" alt="Zerif">
 				</div>
 			</div>
 			<nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">

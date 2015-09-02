@@ -7,25 +7,25 @@
 
 }
 .pd-icon-monitor {
-    background: url(../assets/pd-icons/icon-monitor.png) no-repeat;
+    background: url(../images/pd-icons/icon-monitor.png) no-repeat;
     width: 68px;
 }
 .pd-icon-camera {
-    background: url(../assets/pd-icons/icon-camera.png) no-repeat;
+    background: url(../images/pd-icons/icon-camera.png) no-repeat;
     width: 66px;
 }
 .pd-icon-check {
-    background: url(../assets/pd-icons/icon-check.png) no-repeat;
+    background: url(../images/pd-icons/icon-check.png) no-repeat;
     width: 62px;
 }
 
 .pd-icon-email-marketing {
-    background: url(../assets/pd-icons/icon-openmail.png) no-repeat;
+    background: url(../images/pd-icons/icon-openmail.png) no-repeat;
     width: 61px;
 }
 
 .pd-icon-worldmap {
-    background: url(../assets/pd-icons/icon-worldmap.png) no-repeat;
+    background: url(../images/pd-icons/icon-worldmap.png) no-repeat;
     width: 61px;
 }
 

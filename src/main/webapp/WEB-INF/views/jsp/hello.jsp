@@ -1,6 +1,5 @@
-<%@taglib prefix="sec"
-	uri="http://www.springframework.org/security/tags"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@include file="/tag.jsp"%>
 <!doctype html>
 <html lang="en">
@@ -77,13 +76,13 @@
 			</div>
 			<nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
 			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#focus">Focus</a></li>
-				<li><a href="#works">Works</a></li>
-				<li><a href="#aboutus">About Us</a></li>
+				<li><a href="#home">首页</a></li>
+				<li><a href="#focus">合作加盟</a></li>
+				<li><a href="#works">产品介绍</a></li>
+				<li><a href="#aboutus">关于我们</a></li>
 				<li><a href="#team">Team</a></li>
 				<li><a href="#pricingtable">Pricing</a></li>
-				<li><a href="#features">Features</a></li>
+				<li><a href="#features">说明</a></li>
 				<li><a href="#products">Products</a></li>
 				<li><a href="#testimonials">Testimonials</a></li>
 				<li><a href="#contact">Contact</a></li>
@@ -97,7 +96,7 @@
 	<div class="container">
 		
 		<!-- HEADING -->
-		<h1 class="intro">Affordable Quality services for Small Businesses</h1>
+		<h1 class="intro">支付随心，畅享随行</h1>
 		
 		<!-- CALL TO ACTION BUTTONS -->
 		<div class="buttons inpage-scroll">
@@ -245,7 +244,7 @@
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
-			We have designed and developed many awesome products. Just take a look. 
+			开启小微商户的生意之门
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -263,9 +262,9 @@
 			<div class="project-info">
 				<div class="project-details">
 					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
+					超级刷 </h5>
 					<div class="details white-text">
-						Web Design
+						个人音频/蓝牙刷卡器
 					</div>
 				</div>
 			</div>
@@ -279,9 +278,9 @@
 			<div class="project-info">
 				<div class="project-details">
 					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
+					移联商通 </h5>
 					<div class="details white-text">
-						Web Design
+						创新型移动互联支付终端
 					</div>
 				</div>
 			</div>
@@ -295,7 +294,7 @@
 			<div class="project-info">
 				<div class="project-details">
 					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
+					智能云POS </h5>
 					<div class="details white-text">
 						Web Design
 					</div>
@@ -475,11 +474,11 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="white-text">About US</h2>
+		<h2 class="white-text">公司简介</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6 class="white-text">
-				We design &amp; develop qaulity products to help small &amp; medium level business.
+				
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -489,22 +488,6 @@
 		
 		<!-- COLUMN 1 - BIG MESSAGE ABOUT THE COMPANY-->
 		<div class="col-lg-4 col-md-4 column">
-			<div class="big-intro wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-				 Developing Amazing Things with Passion since 2002.
-			</div>
-		</div>
-		
-		<!-- COLUMN 2 - BRIEF ABOUT THE COMPANY-->
-		<div class="col-lg-4 col-md-4 column">
-			<p class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-				 Created forth two. Behold appear first, kind all i saying fowl man itself moved which every open shall moved subdue appear. Saying life wherein stars. Give dry, own, male had that us third lesser over deep. May every bring in it Whose. Female earth heaven won't behold female.<br/><br/>
-				Moved bearing give a two after. Had. Seas. Man they're. Grass above kind saying thing for that void sixth fly His after it.<br/><br/>
-				The set doesn't moved. Deep don't fruit fowl gathering heaven days moving creeping under from i air. Set it fifth Meat was darkness. every bring in it Whose. Female earth heaven won't behold female.
-			</p>
-		</div>
-		
-		<!-- COLUMN 1 - SKILSS-->
-		<div class="col-lg-4 col-md-4 column">
 			<ul class="skills wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
 				
 				<!-- SKILL ONE -->
@@ -512,7 +495,7 @@
 					<div class="skill-count">
 						<input type="text" value="86" data-thickness=".2" class="skill1">
 					</div>
-					<h6>Web Design</h6>
+					<h6>20多家合作银行</h6>
 					<p>
 						We are expert on HTML development. Clean, semantic and valid HTML codes.
 					</p>
@@ -523,7 +506,7 @@
 					<div class="skill-count">
 						<input type="text" value="80" data-thickness=".2" class="skill2">
 					</div>
-					<h6>development</h6>
+					<h6>150人优秀团队50%研发人员</h6>
 					<p>
 						We are expert on HTML development. Clean, semantic and valid HTML codes.
 					</p>
@@ -534,23 +517,60 @@
 					<div class="skill-count">
 						<input type="text" value="89" data-thickness=".2" class="skill3">
 					</div>
-					<h6>photography</h6>
+					<h6>31个省份的业务覆盖</h6>
 					<p>
 						We are expert on HTML development. Clean, semantic and valid HTML codes.
 					</p>
 				</li>
+			</ul>
+		</div>
+		
+		<!-- COLUMN 2 - BRIEF ABOUT THE COMPANY-->
+		<div class="col-lg-4 col-md-4 column">
+			<p class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+				 深圳前海移联科技有限公司，成立于2013年，公司注册资金10008万元，由深圳市移付宝科技有限公司出资成立。
+
+移联科技依托于股东公司多年的移动应用平台开发及行业服务经验，以创新的第三方支付产品为切入点，配合自主研发的支付业务系统，打造全面、深入的三农、城乡中小微商圈，旨为广大中小微商户提供“安全、稳定、快捷”的移动支付解决方案和运营服务。
+
+移联支付集结国内顶尖的产品技术研发专家、具备多年行业经验的运营团队和资深金融界人士，在产品开发、技术创新、市场开拓、企业管理和资本运作等方面都具有丰富的实战经验，是国内第三方支付服务领域的一支生力军。
+			</p>
+		</div>
+		
+		<!-- COLUMN 1 - SKILSS-->
+		<div class="col-lg-4 col-md-4 column">
+			<ul class="skills wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+				
 				
 				<!-- SKILL FOUR -->
 				<li class="skill">
 					<div class="skill-count">
 						<input type="text" value="95" data-thickness=".2" class="skill4">
 					</div>
-					<h6>SEO</h6>
+					<h6>2项核心专利</h6>
 					<p>
 						We are expert on HTML development. Clean, semantic and valid HTML codes.
 					</p>
 				</li>
-				
+				<!-- SKILL FOUR -->
+				<li class="skill">
+					<div class="skill-count">
+						<input type="text" value="95" data-thickness=".2" class="skill4">
+					</div>
+					<h6>10款硬件产品</h6>
+					<p>
+						We are expert on HTML development. Clean, semantic and valid HTML codes.
+					</p>
+				</li>
+				<!-- SKILL FOUR -->
+				<li class="skill">
+					<div class="skill-count">
+						<input type="text" value="95" data-thickness=".2" class="skill4">
+					</div>
+					<h6>7年的企业发展</h6>
+					<p>
+						We are expert on HTML development. Clean, semantic and valid HTML codes.
+					</p>
+				</li>
 			</ul> 
 		</div> <!-- / END SKILLS COLUMN-->
 	</div> <!-- / END 3 COLUMNS OF ABOUT US-->
@@ -1015,11 +1035,11 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Features</h2>
+		<h2 class="dark-text">高效，效率就是生命</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
-			We design &amp; develop qaulity products to help small &amp; medium level business.
+			服务，您的问题不容等待 专属服务 全年7/12小时客服热线，提供专业的服务
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -1035,9 +1055,9 @@
 				<div class="feature-icon">
 					<i class="icon-heart-1"></i>
 				</div>
-				<h5>Design with Love</h5>
+				<h5>回款高效</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					 最快T+0快速回款，稳定高效， 让您合理利用资金
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1047,9 +1067,9 @@
 				<div class="feature-icon">
 					<i class="icon-bulb"></i>
 				</div>
-				<h5>Creative Features</h5>
+				<h5>快速开通</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					 1分钟申请，最快24小时审核开通， 中小微商户只需提供真实的营业执照、 店主身份证、结算账户、租赁协议和门店照片
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1059,9 +1079,9 @@
 				<div class="feature-icon">
 					<i class="icon-settings-1"></i>
 				</div>
-				<h5>Thousands of Options</h5>
+				<h5>操作简单</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					 简单易用，功能强大的移动收款终端
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1074,9 +1094,9 @@
 				<div class="feature-icon">
 					<i class="icon-params"></i>
 				</div>
-				<h5>Easy to Customize</h5>
+				<h5>多种支付方式</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					 支持银联接触式IC卡和传统磁条卡交易， 满足商户多种收款需求
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1086,9 +1106,9 @@
 				<div class="feature-icon">
 					<i class="icon-handle-streamline-vector"></i>
 				</div>
-				<h5>Clean Strategy</h5>
+				<h5>降低成本</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					 机具成本相仅当于传统POS机的10%， 无需押金和开户费用。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1098,9 +1118,9 @@
 				<div class="feature-icon">
 					<i class="icon-speech-streamline-talk-user"></i>
 				</div>
-				<h5>Awesome Support</h5>
+				<h5>多项增值服务</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					 公共事业缴费、话费充值，交罚办理等多项增值 便民功能，全面照顾好您的生意和生活。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1736,7 +1756,7 @@
 		<div class="icon-top red-text">
 		    <i class="icon-fontawesome-webfont-302"></i>
 		</div>
-		PO Box 16122 Collins Street West, Victoria 8007 Australia
+		深圳市南山区高新科技园北区同方信息港A座10楼
 	</div>
 	
 	<!-- COMPANY EMAIL-->
@@ -1744,7 +1764,7 @@
 		<div class="icon-top green-text">
 		<i class="icon-fontawesome-webfont-329"></i>
 		</div>
-		 contact@designlab.co
+		 marketing@eeepay.cn
 	</div>
 	
 	<!-- COMPANY PHONE NUMBER -->
@@ -1752,7 +1772,8 @@
 		<div class="icon-top blue-text">
 		<i class="icon-fontawesome-webfont-101"></i>
 		</div>
-		+613 0000 0000
+		 400-600-2999<br/>
+		 0755-86282058
 	</div>
 	
 	<!-- SOCIAL ICON AND COPYRIGHT -->
@@ -1764,7 +1785,8 @@
 			<li><a href=""><i class="icon-behance"></i></a></li>
 			<li><a href=""><i class="icon-dribbble"></i></a></li>
 		</ul>
-		 ©2013 Zerif LLC
+		 Copyright 深圳前海移联科技有限公司. All Rights Reserved.
+粤ICP备09161251号-8
 	</div>
 </div> <!-- / END CONTAINER -->
 </footer> <!-- / END FOOOTER  -->
